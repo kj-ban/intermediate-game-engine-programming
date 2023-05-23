@@ -57,6 +57,7 @@ public class Zombie : LivingEntity
 
     // 주기적으로 추적할 대상의 위치를 찾아 경로 갱신
     private IEnumerator UpdatePath() {
+        yield return null;
     }
 
     // 데미지를 입었을 때 실행할 처리
